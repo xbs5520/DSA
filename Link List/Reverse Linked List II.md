@@ -32,3 +32,9 @@ ListNode* reverseBetween(ListNode* head, int left, int right) {
     return dummy.next;
 }
 ```
+
+# Note
+
+Must remember 3 link node reverse!
+
+pre is from dummy, because the first one maybe be reversed!
