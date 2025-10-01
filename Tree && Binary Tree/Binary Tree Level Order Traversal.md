@@ -1,18 +1,40 @@
+---
+id: LC102
+title: Binary Tree Level Order Traversal
+primary_pattern: BFS
+secondary_patterns: []
+status: DRAFT
+time_min: 5
+bugs: 0
+looked_solution: false
+revisit: 2025-10-01
+---
+
 # Problem
 
-Given the `root` of a binary tree, return *the level order traversal of its nodes' values*. (i.e., from left to right, level by level).
+Given the `root` of a binary tree, return *the level order traversal of its nodes' values*.
 
-[Binary Tree Level Order Traversal - LeetCode](https://leetcode.com/problems/binary-tree-level-order-traversal/description/?envType=study-plan-v2&envId=top-interview-150)
+[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/?envType=study-plan-v2&envId=top-interview-150)
 
-# Approach
+# Core Idea
 
-BFS
+push every level nodes into queue and process
+
+# Invariant / Key Condition
+
+count every level's number for not visit new pushed node.
 
 # Complexity
 
-Time: O(n)
+Time: O(n) 
 
-Space: O(m)
+Space: O(w)  max width
+
+# Pitfall
+
+forget to push level's vector
+
+don't read `que.size()` dynamicly
 
 # Code
 

@@ -1,24 +1,39 @@
+---
+id: LC
+title: 
+primary_pattern:
+secondary_patterns: []
+status: 
+time_min: 
+bugs: 
+looked_solution:
+revisit: 2025-10-01
+---
+
 # Problem
 
 
 
-# Approach
+# Core Idea
 
-Force: 
 
-Optimized: 
+
+# Invariant / Key Condition
+
+
 
 # Complexity
 
-Time: O()
+Time: O() 
 
-Space: O()
+Space: O() 
+
+# Pitfall
+
+
 
 # Code
 
 ```c++
 
 ```
-
-# Notes
-
